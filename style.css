@@ -5,6 +5,7 @@ html{ scroll-behavior: smooth; }
 body{
     margin: 50px 80px 0;
     font-family: "Playfair Display", sans-serif;
+    color: #000;
 }
 
 #page-header{
@@ -32,9 +33,15 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 #header-nav nav ul li{
     font-size: 1.4em;
     font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
 }
