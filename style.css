@@ -9,7 +9,7 @@ body{
 }
 
 #page-header{
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     display: flex;
     display: row;
     justify-content: space-between;
@@ -44,4 +44,9 @@ body{
 a{
     text-decoration: none;
     color: inherit;
+}
+
+#fp-header img{
+    width: 100%;
+    height: auto;
 }
