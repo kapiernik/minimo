@@ -3,7 +3,38 @@
 html{ scroll-behavior: smooth; } 
 
 body{
-    margin: 30px 20px 0;
+    margin: 50px 80px 0;
     font-family: "Playfair Display", sans-serif;
 }
 
+#page-header{
+    padding-bottom: 20px;
+    display: flex;
+    display: row;
+    justify-content: space-between;
+}
+
+#header-logo{
+    width: 30%;
+}
+
+#header-logo img{
+    width: 110px;
+    height: auto;
+}
+
+#header-nav{
+    width: 55%;
+}
+
+#header-nav nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#header-nav nav ul li{
+    font-size: 1.4em;
+    font-weight: 400;
+}
