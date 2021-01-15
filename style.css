@@ -4,7 +4,7 @@ html{ scroll-behavior: smooth; }
 
 /* MAIN PROPERTIES FOR PAGE */
 body{
-    margin: 50px 80px 40px;
+    margin-bottom: 40px;
     font-family: "Playfair Display", sans-serif;
     color: #000;
 }
@@ -16,6 +16,9 @@ h1, h2, h3, h4, h5, h6{
 /* HEADER */
 
 #page-header{
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
     padding-bottom: 30px;
     display: flex;
     display: row;
@@ -51,6 +54,12 @@ h1, h2, h3, h4, h5, h6{
 a{
     text-decoration: none;
     color: inherit;
+}
+
+/* PROPERTIES FOR MAIN */
+main{
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 /* FIRST POST ON PAGE */
@@ -142,4 +151,12 @@ h1{
     width: 100%;
     font-size: 18px;
     line-height: 1.8;
+}
+
+#newsletter{
+    background-color: #f0f0f0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
