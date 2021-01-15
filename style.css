@@ -1,7 +1,8 @@
-*{margin: 0; padding: 0; box-sizing: border-box;} /* MAIN PROPERTIES */
+*{margin: 0; padding: 0; box-sizing: border-box;} /* MINUS BROWSERS SETTINGS */
 
 html{ scroll-behavior: smooth; } 
 
+/* MAIN PROPERTIES FOR PAGE */
 body{
     margin: 50px 80px 40px;
     font-family: "Playfair Display", sans-serif;
@@ -11,6 +12,8 @@ body{
 h1, h2, h3, h4, h5, h6{
     font-weight: 400;
 }
+
+/* HEADER */
 
 #page-header{
     padding-bottom: 30px;
@@ -45,13 +48,14 @@ h1, h2, h3, h4, h5, h6{
     font-weight: 400;
 }
 
-#first-post{
-    margin-bottom: 80px;
-}
-
 a{
     text-decoration: none;
     color: inherit;
+}
+
+/* FIRST POST ON PAGE */
+#first-post{
+    margin-bottom: 80px;
 }
 
 #fp-header img{
@@ -64,6 +68,8 @@ a{
     padding: 0px 80px;
 }
 
+/* PROPERTIES FOR UNDER-TOPICS (ARTICLE THEME) */
+
 .article-theme h3{
    font-family: "Ubuntu", sans-serif;
    font-size: 1.3em;
@@ -71,9 +77,13 @@ a{
    padding-bottom: 40px;
 }
 
+/* PROPERTIES FOR MAIN HEAD TEXT */
+
 h1{
     font-size: 35px;
 }
+
+/* CONTINUING OF FIRST POST STYLING */
 
 #first-post-description p{
     margin-top: 30px;
@@ -88,14 +98,18 @@ h1{
    padding-bottom: 40px;
 }
 
+/* ARTICLES SECTION */
+
 .articles{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-column-gap: 70px;
+    grid-row-gap: 200px;
     padding: 0 80px;
 }
+/* ARTICLES (POSTS) */
 
 .post{
     margin-left: auto;
