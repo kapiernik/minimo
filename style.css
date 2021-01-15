@@ -116,7 +116,8 @@ h1{
     grid-template-rows: 1fr 1fr;
     grid-column-gap: 70px;
     grid-row-gap: 200px;
-    padding: 0 80px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 /* ARTICLES (POSTS) */
 
@@ -132,7 +133,7 @@ h1{
 
 .post-image img{
     width: 100%;
-    height: 380px;
+    height: 320px;
 }
 
 .post .article-theme h3{
@@ -144,7 +145,7 @@ h1{
 .post-topic{
     margin: 35px 0;
     width: 100%;
-    font-size: 27px;
+    font-size: 23px;
 }
 
 .post-description{
@@ -156,7 +157,55 @@ h1{
 #newsletter{
     background-color: #f0f0f0;
     width: 100%;
+    margin: 120px 0;
+    padding: 70px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#newsletter #headtext{
+    font-size: 26px;
+}
+
+#newsletter #email-form{
+    margin-top: 50px;
+    width: 38%;
+    border-bottom: 1px solid #000;
+    display: flex;
+    flex-direction: row;
+}
+
+#email-form form{
+    width: 100%;
+    font-family: "Playfair Display", sans-serif;
+}
+
+input::-webkit-input-placeholder { color: #000; }
+
+input[type="email"]{
+    height: 45px;
+    width: 90%;
+    background-color: #f0f0f0;
+    border: none;
+    font-family: "Playfair Display", sans-serif;
+    color: #000;
+    font-size: 18px;
+}
+
+input[type="email"]:focus{
+    outline: none;
+}
+
+button[type="submit"]{
+    border: none;
+}
+
+button[type="submit"]:hover{
+    cursor: pointer;
+}
+
+button[type="submit"] img{
+    width: 38px;
+    height: auto;
 }
