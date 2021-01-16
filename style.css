@@ -130,8 +130,8 @@ h1{
     display: flex;
     justify-content: center;
     overflow: hidden;
-    height: 320px;
-    width: auto;
+    width: 410px;
+    height: 270px;
 }
 
 .post-image img{
@@ -210,4 +210,30 @@ button[type="submit"]:hover{
 button[type="submit"] img{
     width: 38px;
     height: auto;
+}
+
+#second-part{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#load-more{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+#load-more-button{
+    font-size: 26px;
+    color: #626262;
+    padding: 15px 45px;
+    border: 1px solid #000;
+    transition-property: background-color color;
+    transition-duration: 0.5s;
+}
+
+#load-more-button:hover{
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
 }
